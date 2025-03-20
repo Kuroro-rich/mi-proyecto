@@ -45,4 +45,6 @@ npm run build
 🔗 Despliegue
 La aplicación está alojada en [Vercel / Netlify / Otro]
 🔗 Enlace a la aplicación
+mi-proyecto-hrv57bh3i-kuroro-richs-projects.vercel.app 
 
+// Ojo el metacritic lo queria hacer de otra forma pero por el tiempo preferi que sea asi mas normal  que los juegos al inicio le salga altiro ya registrado por el mejor juego //
