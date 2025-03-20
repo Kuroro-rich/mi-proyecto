@@ -1,14 +1,48 @@
-# React + Vite
+🎮 Desafío Videojuego
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Descripción
+Esta aplicación web permite a los usuarios buscar y visualizar información sobre videojuegos utilizando la API pública de RAWG (Documentación).
 
-Currently, two official plugins are available:
+Los usuarios pueden:
+✅ Ver una lista de videojuegos ordenados por puntuación en Metacritic.
+✅ Filtrar juegos por año, género, plataforma, tags y empresa desarrolladora.
+✅ Buscar videojuegos mediante un campo de búsqueda.
+✅ Acceder a una página de detalle con información relevante del juego, como:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Título, género, puntuación
+Portada, plataforma, año de lanzamiento
+Tráilers (si están disponibles)
+Información adicional relevante
 
-## Expanding the ESLint configuration
+🚀 Tecnologías Utilizadas
+React: Biblioteca principal para la construcción de la interfaz.
+react-intersection-observer: Para implementar Infinite Scroll, cargando más videojuegos al llegar al final de la página.
+npm install react-intersection-observer
+Axios o Fetch API: Para realizar las peticiones HTTP a la API de RAWG.
+React Router: Para manejar la navegación entre páginas.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Instalación y Ejecución
 
-Hola aqui dejare las librerias que instale tales como npm install react-intersection-observer que es para para cuando un usuario se acerca al final de la pagina esto lo detecte y pueda seguir cargando las paginas es un infinite scroll
+1️⃣ Clona el repositorio
+git clone <URL_DEL_REPOSITORIO>
+
+2️⃣ Accede al directorio del proyecto
+cd desafio-videojuego
+
+3️⃣ Instala las dependencias
+npm install
+
+4️⃣ Crea un archivo .env con tu API Key de RAWG
+REACT_APP_RAWG_API_KEY=tu_api_key_aqui
+
+5️⃣ Ejecuta la aplicación en modo desarrollo
+npm rin dev
+
+6️⃣ Para generar una versión lista para producción
+npm run build
+
+
+🔗 Despliegue
+La aplicación está alojada en [Vercel / Netlify / Otro]
+🔗 Enlace a la aplicación
+
