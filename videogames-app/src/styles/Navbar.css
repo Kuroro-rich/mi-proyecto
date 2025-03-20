@@ -1,0 +1,40 @@
+nav {
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #e6b800;
+}

@@ -1,0 +1,63 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffcc00;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters input {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-card {
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game-card h3 {
+  color: #ffcc00;
+  margin-top: 10px;
+}
+
+.game-card a {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+.game-card a:hover {
+  text-decoration: underline;
+}
